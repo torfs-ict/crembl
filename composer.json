@@ -1,0 +1,29 @@
+{
+  "name": "torfs-ict/crembl",
+  "description": "Crembl API wrapper, allows you send regular (or registered) mail through the Crembl web service.",
+  "minimum-stability": "stable",
+  "keywords": ["crembl", "bpost", "mail", "api", "rest", "json", "wrapper"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kristof Torfs",
+      "email": "kristof@torfs.org"
+    }
+  ],
+  "homepage": "https://github.com/torfs-ict/crembl",
+  "support": {
+    "issues": "https://github.com/torfs-ict/crembl/issues",
+    "source": "https://github.com/torfs-ict/crembl/tree/master",
+    "docs": "https://github.com/torfs-ict/crembl/blob/master/README.md"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crembl\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "^6.2",
+    "jms/serializer": "^1.4"
+  }
+}
